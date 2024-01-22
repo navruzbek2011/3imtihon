@@ -1,0 +1,822 @@
+@font-face {
+  font-family: Space Mono;
+  src: url("../fontlar/SpaceMono-Regular.ttf");
+}
+@font-face {
+  font-family: Lexend Deca;
+  src: url("../fontlar/LexendDeca-Regular.ttf");
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  height: 3153px;
+  background-color: #FFFFFF;
+}
+.container .header_img {
+  margin-top: 34px;
+  margin-left: 169px;
+}
+.container .header_text {
+  margin-top: -25px;
+  margin-left: 335px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .header_text:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .header_text1 {
+  margin-top: -25px;
+  margin-left: 413px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .header_text1:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .header_text2 {
+  margin-top: -25px;
+  margin-left: 519px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .header_text2:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .header_btn {
+  width: 180px;
+  height: 53px;
+  margin-top: -50px;
+  margin-left: 1095px;
+  background: #FCB72B;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .header_btn:hover {
+  border: 2px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box {
+  background-image: url("../imglar/Group 22.png");
+  background-size: cover;
+  width: 1440px;
+  height: 200px;
+  margin-top: 30px;
+}
+.container .salom {
+  width: 445px;
+  height: 195px;
+  margin-top: 250px;
+  margin-left: 165px;
+}
+.container .salom .text {
+  width: 445px;
+  height: 96px;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  color: #495567;
+}
+.container .salom .text1 {
+  width: 445px;
+  height: 75px;
+  margin-top: 24px;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+}
+.container .salom .btn {
+  width: 180px;
+  height: 53px;
+  position: absolute;
+  margin-top: -65px;
+  background-color: #FCB72B;
+  border: 1px solid #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .salom .btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FCB72B;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .img1 {
+  border-radius: 50%;
+  margin-top: -320px;
+  margin-left: 670px;
+}
+.container .apple {
+  width: 1110px;
+  height: 608px;
+  top: 1546px;
+  left: 165px;
+}
+.container .apple .p {
+  width: 540px;
+  height: 48px;
+  margin-top: 300px;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: center;
+  transition: 0.5s;
+  color: #495567;
+}
+.container .apple .p:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #FCB72B;
+}
+.container .apple .card1 {
+  width: 350px;
+  height: 512px;
+  margin-top: 48px;
+  margin-left: 0px;
+}
+.container .apple .card1 .card1_img {
+  margin-top: 55px;
+  margin-left: 55px;
+}
+.container .apple .card1 .card1_yellow {
+  width: 96px;
+  height: 96px;
+  margin-top: -60px;
+  margin-left: 125px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FCB72B;
+}
+.container .apple .card1 .card1_yellow .card1_text {
+  margin-top: 30px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+}
+.container .apple .card1 .card1_big {
+  width: 350px;
+  height: 130px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.container .apple .card1 .card1_big .card1_text1 {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+  transition: 0.5s;
+}
+.container .apple .card1 .card1_big .card1_text1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .apple .card1 .card1_big .card1_text2 {
+  width: 280px;
+  height: 75px;
+  margin-top: 510px;
+  margin-left: 100px;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
+.container .apple .card2 {
+  width: 350px;
+  height: 512px;
+  margin-top: -510px;
+  margin-left: 380px;
+}
+.container .apple .card2 .card2_img {
+  margin-top: 55px;
+  margin-left: 55px;
+}
+.container .apple .card2 .card2_yellow {
+  height: 96px;
+  width: 96px;
+  margin-top: -60px;
+  margin-left: 125px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FCB72B;
+}
+.container .apple .card2 .card2_yellow .card2_text {
+  margin-top: 30px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+}
+.container .apple .card2 .card2_big {
+  width: 350px;
+  height: 130px;
+  margin-top: 50px;
+}
+.container .apple .card2 .card2_big .card2_text1 {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+  transition: 0.5s;
+}
+.container .apple .card2 .card2_big .card2_text1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .apple .card2 .card2_big .card2_text2 {
+  width: 280px;
+  height: 75px;
+  margin-top: 510px;
+  margin-left: 100px;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
+.container .apple .card3 {
+  width: 350px;
+  height: 512px;
+  margin-top: -515px;
+  margin-left: 755px;
+}
+.container .apple .card3 .card3_yellow {
+  height: 96px;
+  width: 96px;
+  margin-top: -115px;
+  margin-left: 125px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FCB72B;
+}
+.container .apple .card3 .card3_yellow .card3_text {
+  margin-top: 30px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+}
+.container .apple .card3 .card3_big {
+  width: 350px;
+  height: 130px;
+}
+.container .apple .card3 .card3_big .card3_text1 {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+  transition: 0.5s;
+}
+.container .apple .card3 .card3_big .card3_text1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .apple .card3 .card3_big .card3_text2 {
+  width: 280px;
+  height: 75px;
+  margin-top: 510px;
+  margin-left: 100px;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
+.container .w1 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 50px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+}
+.container .w1 .navruz {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w1 .navruz:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w1 .gmail {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w1 .grand {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w1 .grand:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .w2 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+}
+.container .w2 .navruz2 {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w2 .navruz2:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w2 .gmail2 {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w2 .grand2 {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w2 .grand2:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .w3 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+}
+.container .w3 .navruz3 {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w3 .navruz3:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w3 .gmail3 {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w3 .grand3 {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w3 .grand3:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .w4 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+}
+.container .w4 .navruz4 {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w4 .navruz4:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w4 .gmail4 {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w4 .grand4 {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w4 .grand4:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .w5 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+}
+.container .w5 .navruz5 {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w5 .navruz5:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w5 .gmail5 {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w5 .grand5 {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w5 .grand5:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .w6 {
+  width: 1110px;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 165px;
+  background-color: #F2F5F9;
+  position: absolute;
+}
+.container .w6 .navruz6 {
+  margin-top: 32px;
+  margin-left: 40px;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+  color: #495567;
+}
+.container .w6 .navruz6:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FCB72B;
+}
+.container .w6 .gmail6 {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  color: #495567;
+}
+.container .w6 .grand6 {
+  width: 180px;
+  height: 53px;
+  margin-top: 32px;
+  margin-left: 866px;
+  border: 1px solid #FCB72B;
+  position: absolute;
+  background-color: #FCB72B;
+  color: #FFFFFF;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .w6 .grand6:hover {
+  border: 1px solid #FCB72B;
+  background-color: #fff;
+  color: #FCB72B;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container footer {
+  width: 1440px;
+  height: 360px;
+  margin-top: 320px;
+  background-image: url("../imglar/ww.png");
+  background-size: cover;
+}
+.container .footer_past {
+  width: 1440px;
+  height: 80px;
+  margin-top: -80px;
+  background-color: #333A44;
+}
+.container .footer_text {
+  width: 415px;
+  height: 96px;
+  margin: -350px;
+  margin-left: 165px;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  color: #FFFFFF;
+}
+.container .img_grand {
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 916px;
+  display: flex;
+  gap: 20px;
+}
+.container .footer_img {
+  width: 107.82px;
+  height: 28.56px;
+  margin-top: 35px;
+  margin-left: 168.6px;
+}
+.container .footer_text1 {
+  margin-top: -25px;
+  margin-left: 335px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .footer_text1:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .footer_text2 {
+  margin-top: -25px;
+  margin-left: 413px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .footer_text2:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .footer_text3 {
+  margin-top: -25px;
+  margin-left: 519px;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #939CAA;
+  transition: 0.5s;
+}
+.container .footer_text3:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container .joker {
+  margin-left: 1155px;
+  display: flex;
+  position: absolute;
+  margin-top: -50px;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */
